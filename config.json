@@ -28,5 +28,14 @@
   "conversation_max_tokens": 1000,
   "expires_in_seconds": 3600,
   "character_desc": "你是ChatGPT, 一个由OpenAI训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。",
-  "subscribe_msg": "感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。"
+  "subscribe_msg": "感谢您的关注！\n这里是ChatGPT，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
+
+    "channel_type": "wechatcom_app",
+    "wechatcom_corp_id": "wwfdb72e3efc91a2fa",  # 企业微信公司的corpID
+    "wechatcomapp_token": "dEwcB90LXV908qG7H7ztM",  # 企业微信app的token
+    "wechatcomapp_port": 9898,  # 企业微信app的服务端口, 不需要端口转发
+    "wechatcomapp_secret": "nCPGkIiYTqqBoH-TZzImLpm8vXPwvTYHse0rd-b-YX8",  # 企业微信app的secret
+    "wechatcomapp_agent_id": "1000002",  # 企业微信app的agent_id
+    "wechatcomapp_aes_key": "hyX2mz8dUszMYfGIcj8BJeFQgsFf8qpFPJpsQfhVBIR",  # 企业微信app的aes_key
+
 }
